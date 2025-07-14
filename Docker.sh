@@ -3,3 +3,4 @@ sudo systemctl start kibana
 sudo docker build -t seim .
 docker run --network=host seim
 sudo docker ps
+sudo firefox http://localhost:4000
